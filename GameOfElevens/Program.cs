@@ -1,12 +1,3 @@
-﻿//Author:           Amy Wang
-//File Name:        Program.cs
-//Project Name:     GameOfElevens
-//Creation Date:    September 11, 2018
-//Modified Date:    September 20, 2018
-/*Description:      Run Game of Elevens, a simple card game where the user's goal is to have face cards on
-                    all piles by either selecting two cards adding up to eleven or selecting a pile with a
-                    single face card to move to the bottom of the deck*/
-
 using System;
 using System.Collections.Generic;
 
@@ -963,7 +954,7 @@ namespace GameOfElevens
                 }
                 else
                 {
-                    EndMessage("Congratulations! You lost the game!");
+                    EndMessage("You lost the game, try again!");
                 }
             }
    
